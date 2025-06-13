@@ -15,6 +15,7 @@ import { AlertCircle, Loader2, Edit3 } from "lucide-react";
 import { shortenAddress } from "@/lib/utils";
 import { ProposalStatus, getProposalBadge, getAvailableTransitions } from "@/lib/governance/ProposalLifecycleUtils";
 import { mockProposalDatabase } from './mockProposal';
+import { WalletConnection } from '../smart_contracts/WalletConnection';
 
 interface ProposalDetailPageProps {
   proposalId: string;
